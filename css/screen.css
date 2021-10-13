@@ -256,12 +256,21 @@ input {
 
 input[type="checkbox"]  {
   display: inline;
+  line-height: 100px;
 }
 
-#input-email{
+label[for=email]
+{
    margin-top: 15px;
   padding-bottom: 5px;
 }
+
+label[for=age-verification]
+{
+    padding-bottom: 0.5px;
+    line-height: 0.1em;
+}
+
  
 input[type="submit"] {
     width: 5em;
