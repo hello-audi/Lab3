@@ -211,8 +211,6 @@ body{
 
 label {
   display: block;
-   margin-top: 15px;
-  padding-bottom: 5px;
 }
 
 #content {
@@ -252,6 +250,11 @@ input {
 
 input[type="checkbox"]  {
   display: inline;
+}
+
+#input-email{
+   margin-top: 15px;
+  padding-bottom: 5px;
 }
 
 #input-age-verification {
