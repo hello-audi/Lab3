@@ -201,16 +201,18 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
   font-weight: 450;
   font-size: 25px;
   line-height: 50px;
   background-color: #ccced0;
-  padding-bottom: 50px
+  padding-bottom: 50px;
 }
 
 label {
   display: block;
+  margin-top: 5px;
+  font-size: 25px;
 }
 
 #content {
@@ -225,19 +227,23 @@ h1 {
   background-color: #8c8c8c
 }
 
-p{
+p {
   padding-top: 20px;
   padding-bottom: 25px;
   line-height: 50px;
 }
 
-ol{
+ol {
   background-color: #888888;
   padding: 20px;
   line-height: 1em;
   margin: 400px;
   margin-top: 10px;
   font-family: 'Noto Serif', serif;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 input {
@@ -255,11 +261,6 @@ input[type="checkbox"]  {
 #input-email{
    margin-top: 15px;
   padding-bottom: 5px;
-}
-
-#input-age-verification {
-  margin-top: 10px;
-  font-size: 25px;
 }
  
 input[type="submit"] {
