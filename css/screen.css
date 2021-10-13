@@ -193,7 +193,8 @@ img, audio, video {
 
 /* ===== LAYOUT STYLES ====== */ /* ===== STATE STYLES ======= */
 
-html {
+html 
+{
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -201,7 +202,8 @@ html {
   font-family: 'Inter', sans-serif;
 }
 
-body {
+body 
+{
   font-weight: 450;
   font-size: 25px;
   line-height: 50px;
@@ -209,7 +211,8 @@ body {
   padding-bottom: 50px;
 }
 
-label {
+label 
+{
   display: block;
   margin-top: 5px;
   font-size: 25px;
@@ -219,7 +222,8 @@ label {
   text-align: center;
 }
 
-h1 {
+h1 
+{
   font-weight: bold;
   font-size: 45px;
   padding: 30px;
@@ -227,13 +231,15 @@ h1 {
   background-color: #8c8c8c
 }
 
-p {
+p 
+{
   padding-top: 20px;
   padding-bottom: 25px;
   line-height: 50px;
 }
 
-ol {
+ol 
+{
   background-color: #888888;
   padding: 20px;
   line-height: 1em;
@@ -246,7 +252,8 @@ ol {
   border-bottom-right-radius: 20px;
 }
 
-input {
+input 
+{
   border: none;
   box-sizing: border-box;
   width: 65%;
@@ -272,7 +279,8 @@ label[for=age-verification]
 }
 
  
-input[type="submit"] {
+input[type="submit"] 
+{
     width: 5em;
     margin-top: 25px;
     margin-left: 10px;
